@@ -2,7 +2,7 @@
 
 namespace Chipr;
 
-final abstract class Trigger
+abstract class Trigger
 {
     public const NONE     = 0;
     public const ACTIVATE = 1;
